@@ -5,7 +5,6 @@
 -- 设置编码格式
 vim.opt.encoding = "utf-8"
 vim.opt.fenc = "utf-8"
-vim.opt.fileencoding = "utf-8,gbk,big5,cp936,gb18030,euc-jp,euc-kr,latin1,ucs-bom,ucs"
 
 -- 剪贴板通讯
 vim.opt.clipboard = "unnamedplus"
