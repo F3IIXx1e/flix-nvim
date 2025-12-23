@@ -16,4 +16,7 @@ local leader = vim.g.mapleader
 local localleader = vim.g.maplocalleader
 
 -- 设置 Ctrl+z 为撤销
-map({ "n", "i", "v" }, "<C-z>", "<esc><cmd>undo<cr>", { desc = "undo" })
+map({ "n", "i", "v" }, "<C-z>", "<esc><cmd>undo<cr>", { desc = "Undo" })
+
+-- 设置 jj 为快速退出 Insert 模式
+map({ "i" }, "jj", "<esc>", { desc = "Exit insert mode" })
